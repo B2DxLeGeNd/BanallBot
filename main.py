@@ -31,8 +31,8 @@ main = TelegramClient(
     api_hash=API_HASH
 ).start(bot_token=BOT_TOKEN)
 
-Owner = "AakashxDx"
-repo = "https://github.com/AakashxDx/BanallBot"
+Owner = "B2DxLeGeNd"
+repo = "https://github.com/B2DxLeGeNd/BanallBot"
 @main.on(events.NewMessage(pattern="^/start"))
 async def start(event):
     buttns = [Button.url("Support", "https://t.me/GFC_SUPPORT"), Button.url("Repo", f'{repo}')]
